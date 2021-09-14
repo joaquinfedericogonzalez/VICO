@@ -1,0 +1,111 @@
+
+/*RESETEO*/
+
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/*BODY*/
+
+body{
+  background-color: #725836;
+}
+
+/*NAVBAR Y HEADER*/
+
+
+.logo{
+  width: 250px;
+  height: 120px; 
+}
+.navbar{
+  background-color: #131313;
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+  color: #DAB36A;
+}
+.navbar-nav .nav .nav-item .nav-link{
+  color: #DAB36A;
+}
+
+
+.font-weight-light{
+  color: #131313;
+}
+
+.col {
+  margin-bottom: 15px;
+}
+
+.btn{
+  background-color: #131313;
+  color: #DEB36A;
+  border-color: #DAB36A;
+}
+
+.btn:hover{
+  background-color: #DAB36A;
+  color: #131313;
+  transition: 1s;
+  box-shadow: 0 0px 50px 0 rgba(0,0,0,0.80), 0 6px 20px 0 rgba(0,0,0,0.50);
+  transform: scale(0.9);
+}
+
+.card{
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border-color: transparent;
+  box-shadow: 0 4px 10px 6px rgba(0, 0, 0, 0.14), 0 8px 20px 0 rgba(0, 0, 0, 0.32);
+}
+
+.card-body{
+  background-color: #131313;
+  color: #DEB36A;
+}
+
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 768px){
+  .carousel-caption{
+    margin-bottom: auto;
+  }
+}
+
+/*CARRUSEL*/
+
+.carousel-caption{
+  z-index: 0;
+  margin-bottom: 150px;
+  background-color: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0px 50px 0 rgba(0,0,0,0.80), 0 6px 20px 0 rgba(0,0,0,0.50);
+  color: #DEB36A;
+}
+.input-group{
+  text-align: center;
+  margin-left: 40%;
+}
+
+
+footer{
+  background-color: #131313;
+  color: #DAB36A;
+  margin-top: 25px;
+}
+.contactoFooter{
+  text-align: initial;
+  padding-left: 30px;
+}
+.imgMap{
+  padding-bottom: 55px;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.mapa{
+  margin-left: 420px;
+  margin-bottom: 25px;
+}

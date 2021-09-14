@@ -1,0 +1,27 @@
+[
+    {
+        "mesa": "mesa 4",
+        "capacidad": "5 personas",
+        "mozo": "Lucas"
+    },
+    {
+        "mesa": "mesa 1",
+        "capacidad": "2 personas",
+        "mozo": "Lucia"
+    },
+    {
+        "mesa": "mesa 3",
+        "capacidad": "4 personas",
+        "mozo": "Nicolas"
+    },
+    {
+        "mesa": "mesa 2",
+        "capacidad": "3 personas",
+        "mozo": "Camila"
+    },
+    {
+        "mesa": "mesa 5",
+        "capacidad": "6 personas",
+        "mozo": "Brenda"
+    }
+]
