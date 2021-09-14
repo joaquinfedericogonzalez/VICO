@@ -19,11 +19,10 @@ body{
 
 .logo{
   width: 250px;
-  height: 120px; 
+  height: 110px; 
 }
 .navbar{
   background-color: #131313;
-  position: fixed;
   z-index: 3;
   width: 100%;
   color: #DAB36A;
