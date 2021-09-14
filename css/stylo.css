@@ -23,7 +23,6 @@ body{
 }
 .navbar{
   background-color: #131313;
-  position: fixed;
   z-index: 3;
   width: 100%;
   color: #DAB36A;
