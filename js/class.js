@@ -8,17 +8,17 @@ class Productos {
     }
     card(){
     return `<div class="col-xl-4">
-              <div>
-                  <div class="card border-0">
-                      <img src="img/${this.image}" class="img-fluid" alt="Sweaters gato!">
-                      <div class="card-body">
-                          <h3 class="card-title">${this.titulo}</h3>
-                          <p class="card-text">${this.detalle}</p>
-                          <h5 class="card-text">$ ${this.precio}</h5>
-                          <a href="#" name=${this.id} onclick="acciones(event,'agregarAlCarrito')" class="btn btn-lg">Agregar al carrito</a>
-                      </div>
-                  </div>
-              </div>
+                <div>
+                    <div class="card border-0">
+                        <img src="img/${this.image}" class="img-fluid" alt="Sweaters gato!">
+                        <div class="card-body">
+                            <h3 class="card-title">${this.titulo}</h3>
+                            <p class="card-text">${this.detalle}</p>
+                            <h5 class="card-text">$ ${this.precio}</h5>
+                            <a href="#" name=${this.id} onclick="acciones(event,'agregarAlCarrito')" class="btn btn-lg">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
             </div>`
     }
 }
@@ -48,7 +48,7 @@ $("#contenidoModal").html(
                 <table id="lista-carrito" class="u-full-width">
                     <thead>
                         <tr>
-                            <th class="izquierdaDeLaTabla">Imagen</th>
+                            <th class="izquierdaDeLaTabla">Producto</th>
                             <th class="medioDeLaTabla">Nombre</th>
                             <th class="derechaDeLaTabla">Precio</th>
                         </tr>
