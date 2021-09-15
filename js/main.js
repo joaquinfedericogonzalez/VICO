@@ -1,8 +1,7 @@
 
-const vico = new Tienda()
-let listadoProductos = productos.map(producto=>new Productos(producto))
+const vico = new Tienda(productos)
 
-listadoProductos.forEach(vino=>{
+vico.productos.forEach(vino=>{
   document.querySelector("#contenedorCard").innerHTML += vino.card()
 })
 

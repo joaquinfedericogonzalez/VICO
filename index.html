@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="css/stylo.css">
     <script src="./js/data.js"></script>
+    <script src="./js/tools.js"></script>
     <link  rel = "icon"  type = "image / png"  tamaños = "96x96"  href = "./img/favicon-96x96.png">
     <title>VICO</title>
 </head>
@@ -130,7 +131,7 @@
                   </div>
                 </div>
                 <div class="col">
-                  <button id="botonReserva" data-toggle="modal" data-target="#exampleModal" type="submit" class="btn btn-lg">Reservar</button>
+                  <button onclick="acciones(event,'pintarModalReserva')"  data-toggle="modal" data-target="#exampleModal" type="submit" class="btn btn-lg">Reservar</button>
                 </div>
               </div>
               
@@ -164,7 +165,7 @@
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Tu pedido</h5>
+              <h5 class="modal-title" id="tituloModal">Tu pedido</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -172,9 +173,7 @@
             <div id="contenidoModal" class="modal-body">
               ...
             </div>
-            <div class="modal-footer">
-              <button type="button" class="btn" data-dismiss="modal">Cerrar</button>
-              <button type="button" class="btn">Comprar</button>
+            <div class="modal-footer" id="footerModal">
             </div>
           </div>
         </div>
