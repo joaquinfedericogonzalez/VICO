@@ -84,8 +84,8 @@
 
 
 
-    <section id="reservas">
-      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+  <section id="reservas">
+    <div id="carouselExampleCaptions" class="carousel" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <video class="d-block w-100" autoplay loop>
@@ -93,53 +93,52 @@
             Tu navegador no puede reproducir el video
           <code>video</code>
           </video>
-          
-        </div>
-        <div class="carousel-caption d-none d-md-block">
-            <h5 class="ml12">Reserva aca tu proxima noche</h5>
-            <form>
-              <div class="col mb-auto">
-                <div class="col">
-                  <input type="text" class="form-control" placeholder="Nombre">
-                </div>
-                <div class="col">
-                  <input type="text" class="form-control" placeholder="Apellido">
-                </div>
-                <div class="col">
-                  <input type="email" class="form-control mb-2" placeholder="Email" id="inputEmail4">
-                </div>
-                <div class="input-group mb-3">
-                  <select id="mesa">
-                    <option value="0">
-                      Seleccione Mesa
-                    </option>
-                  </select>
-                  <div class="input-group-prepend">
-                    <label class="input-group-text" for="inputGroupSelect01">Mesa</label>
+          <div class="carousel-caption d-none d-md-block">
+              <h5 class="ml12">Reserva aca tu proxima noche</h5>
+              <form>
+                <div class="col mb-auto">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Nombre">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Apellido">
+                  </div>
+                  <div class="col">
+                    <input type="email" class="form-control mb-2" placeholder="Email" id="inputEmail4">
+                  </div>
+                  <div class="input-group mb-3">
+                    <select id="mesa">
+                      <option value="0">
+                        Seleccione Mesa
+                      </option>
+                    </select>
+                    <div class="input-group-prepend">
+                      <label class="input-group-text" for="inputGroupSelect01">Mesa</label>
+                    </div>
+                    
                   </div>
                   
-                </div>
-                
-                <div  class="input-group mb-3">
-                  <select id="mozo">
-                    <option value="0">
-                      Seleccione Mozo
-                    </option>
-                  </select>
-                  <div class="input-group-append">
-                    <label class="input-group-text" for="inputGroupSelect02">Mozo</label>
+                  <div  class="input-group mb-3">
+                    <select id="mozo">
+                      <option value="0">
+                        Seleccione Mozo
+                      </option>
+                    </select>
+                    <div class="input-group-append">
+                      <label class="input-group-text" for="inputGroupSelect02">Mozo</label>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <button onclick="acciones(event,'pintarModalReserva')"  data-toggle="modal" data-target="#exampleModal" type="submit" class="btn btn-lg">Reservar</button>
                   </div>
                 </div>
-                <div class="col">
-                  <button onclick="acciones(event,'pintarModalReserva')"  data-toggle="modal" data-target="#exampleModal" type="submit" class="btn btn-lg">Reservar</button>
-                </div>
-              </div>
-              
-            </form>
+                
+              </form>
           </div>
+        </div>
       </div>
     </div>
-    </section>
+  </section>
     
 
 

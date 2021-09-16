@@ -25,27 +25,31 @@ body{
   transform: scale(1.2);
   transition: 2s;
 }
+
 .navbar{
   background-color: #131313;
   z-index: 3;
   width: 100%;
 }
+
 .navbar-nav .nav .nav-item .nav-link{
   color: #DAB36A;
 }
+
 .navbar-nav .nav .nav-item .nav-link:hover{
   color: #725836;
   transition: 1s;
 }
 
+.navbar-toggler-icon{
+  background-color: #DAB36A;
+}
 .font-weight-light{
   color: #131313;
 }
 
-.col {
-  margin-bottom: 15px;
-}
 
+/*CARDS*/
 .btn{
   background-color: #131313;
   color: #DEB36A;
@@ -72,23 +76,16 @@ body{
   color: #DEB36A;
 }
 
-.navbar-toggler-icon{
-  background-color: #DAB36A;
+/*RESERVAS*/
+.col {
+  margin-bottom: 15px;
 }
 
-/*MEDIA QUERIES*/
-
-@media screen and (max-width: 768px){
-  .nav-item{
-    padding-left: 75px;
-  }
-}
 
 /*CARRUSEL*/
 
 .carousel-caption{
-  z-index: 0;
-  margin-bottom: 150px;
+  margin-bottom: 12%;
   background-color: rgba(0, 0, 0, 0.8);
   box-shadow: 0 0px 50px 0 rgba(0,0,0,0.80), 0 6px 20px 0 rgba(0,0,0,0.50);
   color: #DEB36A;
@@ -98,6 +95,34 @@ body{
   margin-left: 40%;
 }
 
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 768px){
+  .nav-item{
+    padding-left: 75px;
+  }
+  .carousel-caption{
+    margin-bottom: 0%;
+    padding-top: 10%;
+  }
+  .mapa{
+    margin-left: 0%;
+    margin-right: 20%;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .carousel .carousel-caption .carousel-item{
+   margin-bottom: 0%;
+   padding-top: 0%;
+  }
+}
+  
+
+
+
+
+/*FOOTER*/
 
 footer{
   background-color: #131313;
@@ -125,6 +150,9 @@ tr td{
   margin: 20px;
   padding: 15px;
 }
+
+/*MODAL*/
+
 .modal-body, .modal-header, .modal-footer{
   color: #DAB36A;
   background-color: #131313;
