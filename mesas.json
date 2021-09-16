@@ -1,11 +1,11 @@
 [
     {
-        "mesa": "mesa 4",
+        "mesa": "mesa 1",
         "capacidad": "5 personas",
         "mozo": "Lucas"
     },
     {
-        "mesa": "mesa 1",
+        "mesa": "mesa 2",
         "capacidad": "2 personas",
         "mozo": "Lucia"
     },
@@ -15,12 +15,12 @@
         "mozo": "Nicolas"
     },
     {
-        "mesa": "mesa 2",
+        "mesa": "mesa 5",
         "capacidad": "3 personas",
         "mozo": "Camila"
     },
     {
-        "mesa": "mesa 5",
+        "mesa": "mesa 6",
         "capacidad": "6 personas",
         "mozo": "Brenda"
     }
