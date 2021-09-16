@@ -1,4 +1,6 @@
 
+/* ESTO ES LO QUE GENERA LA TIENDA */ 
+
 const vico = new Tienda(productos)
 
 vico.productos.forEach(vino=>{
@@ -12,7 +14,7 @@ function acciones(event, accion){
 }
 
 
-
+/* FUNCION PARA EL RESERVADO DE MESAS Y MOZOS */
 function leerMesas(){ 
   const consulta= new XMLHttpRequest() 
   consulta.open('GET','mesas.json', true)

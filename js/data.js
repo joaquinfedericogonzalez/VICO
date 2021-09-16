@@ -1,3 +1,5 @@
+/* El CONTENIDO DE CARDS */
+
 const productos = [{
     id:1,
     precio:1200,

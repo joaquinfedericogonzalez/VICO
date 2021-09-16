@@ -1,3 +1,5 @@
+
+/* ESTO ES LO QUE GENERA LAS CARDS Y LAS MUESTRA */
 class Productos { 
     constructor({id,precio, titulo, image, detalle}) {
         this.precio = precio;
@@ -8,9 +10,9 @@ class Productos {
     }
     card(){
         return `
-            <div class="col-xl-4">
+            <div data-aos="zoom-out" data-aos-duration="2000" class="col-xl-4">
                 <div>
-                    <div class="card border-0">
+                    <div class="card">
                         <img src="img/${this.image}" class="img-fluid" alt="Sweaters gato!">
                         <div class="card-body">
                             <h3 class="card-title">${this.titulo}</h3>
@@ -24,6 +26,8 @@ class Productos {
         `
     }
 }
+
+/* ACA SE ESTA HACIENDO EL CARRITO DE COMPRAS CON MODAL */
 
 class Tienda{
     constructor(listadoProductos = []){
@@ -91,7 +95,6 @@ class Tienda{
                             </tr>`).join("")}
                             </tbody>
                                 <tr>
-                                    <td></td>
                                     <td class="totalDeLaTabla"><b>Total</b></td>
                                     <td id="totalSuma" class="derechaDeLaTabla">${this.total()}</td>
                                     <td><a href="#" onclick="acciones(event,'vaciarCarrito')" class="button u-full-width">Vaciar Carrito</a></td>

@@ -67,8 +67,8 @@ body{
 .card{
   margin-top: 5px;
   margin-bottom: 15px;
-  border-color: transparent;
-  box-shadow: 0 4px 10px 6px rgba(0, 0, 0, 0.14), 0 8px 20px 0 rgba(0, 0, 0, 0.32);
+  border-color: #DEB36A;
+  box-shadow: 0 4px 10px 6px rgba(0, 0, 0, 0.18), 0 8px 20px 0 rgba(0, 0, 0, 0.50);
 }
 
 .card-body{
@@ -77,22 +77,42 @@ body{
 }
 
 /*RESERVAS*/
+
 .col {
   margin-bottom: 15px;
 }
 
+.input-group{
+  text-align: center;
+  margin-left: 40%;
+}
+
+
+.carousel-inner{
+  box-shadow: 0 0px 50px 0 rgba(0,0,0,0.80), 0 6px 20px 0 rgba(0,0,0,0.50);
+}
 
 /*CARRUSEL*/
 
-.carousel-caption{
+.texto1{
+  margin-bottom: 25%;
+  background-color: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0px 50px 0 rgba(0,0,0,0.80), 0 6px 20px 0 rgba(0,0,0,0.50);
+  color: #DEB36A;
+  height: 200px;
+  width: 100%;
+  text-shadow: 0 3px 3px black, 0 0 0 #000;
+}
+.titulo{
+  margin-top: 60px;
+  font-size: 28px;
+}
+
+.texto{
   margin-bottom: 12%;
   background-color: rgba(0, 0, 0, 0.8);
   box-shadow: 0 0px 50px 0 rgba(0,0,0,0.80), 0 6px 20px 0 rgba(0,0,0,0.50);
   color: #DEB36A;
-}
-.input-group{
-  text-align: center;
-  margin-left: 40%;
 }
 
 /*MEDIA QUERIES*/
@@ -113,8 +133,8 @@ body{
 
 @media screen and (max-width: 480px){
   .carousel .carousel-caption .carousel-item{
-   margin-bottom: 0%;
-   padding-top: 0%;
+    margin-bottom: 0%;
+    padding-top: 0%;
   }
 }
   
@@ -142,14 +162,7 @@ footer{
   margin-left: 420px;
   margin-bottom: 25px;
 }
-.vino{
-  width: 60px;
-  height: 90px;
-}
-tr td{ 
-  margin: 20px;
-  padding: 15px;
-}
+
 
 /*MODAL*/
 
@@ -158,11 +171,11 @@ tr td{
   background-color: #131313;
 }
 .close{
-  color: darkred;
+  color: #DEB36A;
 }
 .close:hover{
-  color: #DEB36A;
-  transition: 0.3;
+  color: darkred;
+  transition: 0.5s;
 }
 .button{
   color: #DAB36A;
@@ -171,4 +184,12 @@ tr td{
   color: darkred;
   transition: 0.3s;
   text-decoration: none;
+}
+.vino{
+  width: 60px;
+  height: 90px;
+}
+tr td{ 
+  margin: 20px;
+  padding: 15px;
 }
